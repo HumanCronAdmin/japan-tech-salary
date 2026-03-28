@@ -1,0 +1,17 @@
+{
+  "name": "Japan Tech Salary Explorer",
+  "short_name": "JP Salary",
+  "description": "Explore and compare tech salaries in Japan by role, city, and experience level.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f5f5",
+  "theme_color": "#1a237e",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
