@@ -255,6 +255,7 @@ function applyFilters(){
 
   sortData();
   render();
+  var role = document.getElementById("filter-role").value;var city = document.getElementById("filter-city").value;var exp = document.getElementById("filter-exp").value;gtag("event", "salary_filtered", {filter_type: role !== "all" ? "role" : city !== "all" ? "city" : exp !== "all" ? "experience" : "reset", role: role, city: city, experience: exp});
 }
 
 function sortBy(col){
